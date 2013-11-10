@@ -1,0 +1,176 @@
+/*!
+ Created by: Anthony Cole
+ */
+
+
+
+
+
+/* Font Family
+================================================== */
+
+
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../type/leaguegothic-condensedregular-webfont.eot');
+    src: url('../type/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('../type/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('../type/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+	}
+/*================================================== */
+
+
+
+	header{
+
+	}
+
+	nav{
+		border-top: 1.5em;
+		border-bottom: 1.5em;
+	
+	}
+
+
+	a {
+	
+	}
+
+	body{
+    font-family: 'league_gothicCnRg';
+	margin: 0 auto;  
+    background: #FFFFFF;  
+    text-align: center;
+
+	}
+
+	h1{
+
+	}
+
+	h2{
+	
+	}
+	
+
+	h3{
+
+	}
+
+	h4{
+
+	}
+
+	h5{
+
+	}
+
+	h6{
+
+	}
+
+
+	p {
+
+	}
+
+	aside{
+	
+	}
+
+	section{
+
+	}
+
+	article{
+	padding-left: 3.0em;
+	padding-right: 3.0em;
+
+	}
+
+
+	footer{
+	font-size: 0.8em;
+	font-weight: bold;
+	position: relative;
+	
+	padding-bottom: 4%;
+	padding-top: 4%;
+	width: 100%;
+	}
+
+	hr{
+
+	}
+  	
+  	strong {
+
+  	}
+
+  	ul{
+  	padding-top: .5em;
+  	padding-bottom: .5em;
+
+  	}
+
+  	ol{
+
+  	}
+
+  	li{
+	display: inline-block;
+
+  	}
+
+  	#page-container{
+	margin: 0px auto;
+	max-width: 940px;
+	padding: 0% 5%;
+	}
+
+	#bar{
+	font-size: 1.5em;
+	height: 3.0em;
+	}
+
+	#beans{
+	background: url("coffee/content/images/beans");
+	background-clip: url("coffee/content/images/beans");
+	}
+
+
+	#addressandphone {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	}
+
+
+	#copyright {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	}
+
+
+  	#content{
+	display: table;  
+
+  	}
+
+	  	#maincontent1{
+		display: table-cell;  
+	    width: 460px;  
+
+	  	}
+
+	  	#maincontent2{
+	 	display: table-cell;  
+	    width: 460px;
+	  	}
+  	}
+  	
+}
