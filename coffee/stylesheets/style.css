@@ -31,8 +31,8 @@
 	}
 
 	nav{
-		border-top: 1.5em;
-		border-bottom: 1.5em;
+	border-top: 1.5em;
+	border-bottom: 1.5em;
 	
 	}
 
@@ -49,39 +49,6 @@
 
 	}
 
-	h1{
-
-	}
-
-	h2{
-	
-	}
-	
-
-	h3{
-
-	}
-
-	h4{
-
-	}
-
-	h5{
-
-	}
-
-	h6{
-
-	}
-
-
-	p {
-
-	}
-
-	aside{
-	
-	}
 
 	section{
 
@@ -95,30 +62,18 @@
 
 
 	footer{
-	font-size: 0.8em;
-	font-weight: bold;
+	font-size: 0.9em;
+	font-weight: normal;
 	position: relative;
-	
 	padding-bottom: 4%;
 	padding-top: 4%;
 	width: 100%;
+	background-color: #230b03;
 	}
-
-	hr{
-
-	}
-  	
-  	strong {
-
-  	}
 
   	ul{
   	padding-top: .5em;
   	padding-bottom: .5em;
-
-  	}
-
-  	ol{
 
   	}
 
@@ -138,11 +93,6 @@
 	height: 3.0em;
 	}
 
-	#beans{
-	background: url("coffee/content/images/beans");
-	background-clip: url("coffee/content/images/beans");
-	}
-
 
 	#addressandphone {
 	padding-top: 0%;
@@ -155,6 +105,10 @@
 	padding-bottom: 0%;
 	}
 
+	#footertext{
+	color: #cebb99;
+	line-height: 1;
+	}
 
   	#content{
 	display: table;  
@@ -163,13 +117,19 @@
 
 	  	#maincontent1{
 		display: table-cell;  
-	    width: 460px;  
+	    width: 420px;  
+		padding-left: 40px;
+		padding-top: 10px;
+	    padding-bottom: 10px;
 
 	  	}
 
 	  	#maincontent2{
 	 	display: table-cell;  
-	    width: 460px;
+	    width: 442px;
+	    padding-right: 18px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
 	  	}
   	}
   	
