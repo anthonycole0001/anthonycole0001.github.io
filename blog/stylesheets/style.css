@@ -121,7 +121,6 @@
 
 
 	footer{
-	font-size: 0.8em;
 	font-weight: bold;
 	position: relative;
 	bottom: 0;
@@ -178,6 +177,10 @@
 	padding: 0% 4%;
 	}
 
+	#footertext p{
+	font-size: 1.0em;
+	}
+
 	#page-container{
 	margin: 0px auto;
 	max-width: 800px;
@@ -213,6 +216,7 @@
 	padding: 0% 1% 1% 1%;
 	max-width: 550px;
 	width: 95%;
+	margin-bottom: 4%;
 	}	
 
 
