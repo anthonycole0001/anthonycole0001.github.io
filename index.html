@@ -1,188 +1,542 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
 <head>
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta charset="utf-8">
-    <title>Anthony Cole - Portfolio</title>
-    <meta name="description" content="Anthony Cole, Product Management, User Interface and User Experiece Designer, Mobile and Web Developer">
-    <meta name="keywords" content="Anthony Cole, Product Management, User Interface and User Experiece Designer, Mobile and Web Developer">
-    <meta name="author" content="Anthony Cole"> 
+    <title>Anthony Cole | Product Designer, Developer, Entrepreneur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <meta property="og:description" content="Anthony Cole, Product Management, User Interface and User Experiece Designer, Mobile and Web Developer"/>
-    <meta property="og:site_name" content="Anthony Cole - Portfolio">
+    <!-- meta tags -->
+    <meta property="og:title" content="Anthony Cole | Product Designer, Developer, Entrepreneur" />
+    <meta property="og:url" content="http://www.anthonyocole.com" />
+    <meta name="description" content="Anthony Cole is a Product Designer, Developer, Entrepreneur.  Experienced with Product and Design targeting Front-end UI and UX  in Mobile and Web Development">
+    <meta name="keywords" content="Anthony Cole, Product Designer, Developer, Entrepreneur, UI, User Interface, UX, User Experiece, Product Management, Mobile, Front-end, Web Development">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+   
 
-    <!-- CSS
-  ================================================== -->
-
-    <link href="/common/css/published/normalize.css" rel="stylesheet"></link>
-    <link href="/common/css/published/animate.min.css" type="text/css" rel="stylesheet"></link>
-    <link href="/common/css/published/bootstrap.min.css" type="text/css" rel="stylesheet"></link>
-    <link href="/common/css/published/main.less.txt" type="text/css" rel="stylesheet/less"></link>
-
-
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript" src="/common/js/less.js" language="javascript"></script>
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- CSS Sytles ==================================================================================================== -->
+    <link href="/common/css/published/main/normalize.css" rel="stylesheet" media="screen" />
+    <link href="/common/css/published/main/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="/common/css/published/main/animate.min.css" rel="stylesheet" >
+    <link href="/common/css/published/main/style.css" rel="stylesheet" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400italic' rel='stylesheet' type='text/css' />
     
+    <!-- Slider JS =============================================================================================== -->
+    <script type="text/javascript" src="/common/js/slider/modernizr.custom.79639.js"></script>
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="/common/css/published/slider/styleNoJS.css" />
+    </noscript>
+    
+    <!-- ImageGrid CSS & JS ============================================================================================ -->
+    <!--<script type="text/javascript" src="/common/js/imageGrid/modernizr.custom.26633.js"></script>
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="/common/css/published/imageGrid/fallback.css" />
+    </noscript>-->
+
+
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-    <!-- Primary Page Layout
-    ================================================== -->
 
-<body class="page-">
-    <div class="menu">
-        <ul class="main">
+<!-- Primary Page Layout======================================================================================== -->
+
+<body id="skrollr-body">
+
+    <div class="menu clearfix pull-right">            
+        <!-- NAV MENU -->
+        <ul class="main clearfix">
             <li><a tabindex="-1" href="/">Home</a></li>
-            <li><a tabindex="-1" href="/aboutme.html">About Me</a></li>
-            <li><a tabindex="-1" href="portfolio/portfolio.html">Portfolio</a></li>
-            <li class="sub"><a tabindex="-1" href="content/docs/Anthony Cole_ October 2013ttpm.pdf">Resume</a></li>
-            <li class="sub"><a tabindex="-1" href="/Blog">Blog</a></li>
-            <li class="sub"><a tabindex="-1" href="/Interest">Interest</a></li>
+            <li><a tabindex="-1" href="#my-portfolio">Portfolio</a></li>
+            <li><a tabindex="-1" href="#skills-tools">Skills &amp; Tools</a></li>
+            <li><a tabindex="-1" href="#about-me">About Me</a></li>
+            <li class="sub"><a tabindex="-1" href="common/docs/Anthony Cole_ October 2013ttpm.pdf">Resume</a></li>
+            <li class="sub"><a tabindex="-1" href="https://github.com/anthonycole0001">Github</a></li>
+            <li class="sub"><a tabindex="-1" href="#">Blog</a></li>
+            <li class="sub"><a tabindex="-1" href="#">Interest</a></li>
         </ul>
         <ul class="navigation">
             <li><a tabindex="-1" href="mailto:Anthony.cole0001@gmail.com">CONTACT ME</a></li>
         </ul>
-        <ul class="social">
-                <li><a class="fb" tabindex="-1" href="" target="_blank">&nbsp;</a></li>
-                <li><a class="tw" tabindex="-1" href="http://www.twitter.com/intrinsicallyme" target="_blank">&nbsp;</a></li>
-                <li><a class="li" tabindex="-1" href="http://www.linkedin.com/pub/anthony-cole/3/18/676/" target="_blank">&nbsp;</a></li>
-            </ul>
-                <p>2013 &copy; Anthony Cole</p>
-            <span class="close-trigger"><strong>x</strong></span>
-        </div>
-        <div class="content">
-            <header>
-                <div class="container">
-                    <div class="row">
-                        <div class="top hideit">
-                            <a href="/">
-                              <h1 class="pull-left">
-                                Anthony Cole
-                                <img src="common/images/logo.png"  alt="Anthony Cole" />
-                              </h1>
-                            </a>
-                            <a href="#" class="menuTrigger pull-right">
-                                <i class="icon-trigger"><img src="common/images/menuTrigger.png" alt="close menu" /></i>
-                                <p>Menu</p>
-                            </a>
-                        </div>
-                        <div class="featured">
-                            <br>
-                            <img src="common/images/" class="img-responsive" alt="">
-                            <h2 class="hideit featured-h2">Product Designer<br />Mobile Web Developer</h2>
-                        </div>
-                    </div>
-                </div>
-            </header>
+        <span class="close-trigger"> <strong>x</strong></span>
+        <!-- /NAV MENU -->
+    </div>
 
-
-            <div class="statements">
-                <div class="container">
-                    <div class="statement">
-                        <div class="col-lg-6">
-                            <img src="/common/images/UX-vs-UI-630x315.jpg" alt="Designing Engaging Products" class="img-responsive">
-                        </div>
-                        <div class="inner col-lg-6 pull-left">
-                          <h3>Designing Engaging Products</h3>
-                            <p>"Amazingly designed products inspire users to lose themselves in an intuitive experience that delights and engages the senses..."</p>
-                        </div>
-                    </div>
-                    <div class="statement-two">
-                        <div class="col-lg-6 pull-right img">
-                            <img src="/common/images/eW1st5lh.jpg" alt="Simplicity is the ultimate sophistication" class="img-responsive">
-                        </div>
-                        <div class="inner col-lg-6 pull-left">
-                        <h3>Simplicity is the Ultimate Sophistication</h3>
-                        <p>"When form follows function, the heart and mind are right there..."</p>
-                        </div>
+    <div class="content">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="top hideit">
+                        <a href="#" class="menuTrigger scroll-it pull-right" data-target="body">
+                            <i class="icon-trigger"><img src="common/images/menuTrigger.png" alt="close menu" /></i> 
+                            <p>Menu</p>
+                        </a>
+                        <p>
+                            <ul class="name">
+                                <h1>
+                                    <a href="#">
+                                        Anthony Cole
+                                    </a>
+                                </h1>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>
+        </header>
+    </div>
 
-            <div class="skills-tools">
-                <div class="container">
+
+    <section id='community'>
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+        <a href="#" class="learn-more scroll-it visible-sm visible-xs" data-target="#home">Learn More</a>
+    </section>
+    <a href="#" class="learn-more scroll-it visible-md visible-lg" data-target="#home">Learn More</a>
+    
+
+    <!--Ethos-chGrid-->
+    <section id='home' data-top-bottom="background-position: 49.9% 300px" data-bottom="background-position: 49.9% 0px" data-bottom-top="background-position: 49.9% -300px">
+        <div class='container'>
+            <div class='row'>
+                <div class='content col-lg-16'>
+                    <div class='row'>
+                        <div class='featured'>
+                            <div class="hideit featured-h2">
+                                <ul class="ch-grid">
+                                    <li>
+                                        <div class="ch-item">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-1"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Builder</h3>                                                    
+                                                    <p><a href=""></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ch-item">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-2"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Techie</h3>
+                                                    <p><a href=""></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ch-item">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-3"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Pragmatist</h3>
+                                                    <p><a href=""></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Skills-Tools-->
+    <section id='focus' class='inter'>
+        <div class='container'>
+            <div class='row'>
+                <div class='content col-lg-12'>
+                    <hr />
                     <h2>Skill-sets, Tools &amp; Techniques</h2>
-                    <img src="content/images/*.png" alt="" class="img-responsive">
-                    <div class="icons">
-                        <div class="pull-center col-lg-8 item">
-                            <p>User Experience</p>
-                            <ul>
-                                <ol>Personas</ol>
-                                <ol>User Stories</ol>
-                                <ol>Sketching</ol>
-                                <ol>White-boarding</ol>
-                                <ol>Data Driven Iteration</ol>
-                                <ol>Frequency Modeling</ol>
-                                <ol>Competitive Analysis</ol>
-                                <ol>Flow Charts</ol>
-                                <ol>Storyboarding</ol>
-                                <ol>Card Sorting</ol>
-                            </ul>
+                    <div class="row">                    
+                        <div class="pull-left col-lg-2 item text-left">
+                            <p>UI &amp; UX</p>
+                                <li>Personas</li>
+                                <li>User Stories</li>
+                                <li>Sketching</li>
+                                <li>White-boarding</li>
+                                <li>Competitive Analysis</li>
+                                <li>Storyboarding</li>
+                                <li>Card Sorting</li>
+                                <li>Wireframes</li>
+                                <li>Rapid Prototyping</li>
+                                <li>Process Mapping</li>
+                                <li>Typography</li>
                         </div>
-                        <div class="pull-left col-lg-8 item">
+                        <div class="pull-left col-lg-2 item text-left">
                             <p>Front-end</p>
-                            <ul>
-                                <ol>HTML</ol>
-                                <ol>PHP</ol>
-                                <ol>C# - ASP.Net</ol>
-                                <ol>CSS</ol>
-                                <ol>jQuery</ol>
-                                <ol>Javascript</ol>
-                                <ol>Git</ol>
-                                <ol>Sublime Text 2</ol>
-                                <ol>XCode</ol>
-                                <ol>Responsive Design</ol>
-                            </ul>
-
+                                <li>HTML</li>
+                                <li>PHP</li>
+                                <li>CSS</li>
+                                <li>Photoshop</li>
+                                <li>Responsive Design</li>
+                                <li>Sublime Text 2</li>
+                                <li>Foundation &amp; SASS</li>
+                                <li>XCode</li>
                         </div>
-                        <div class="pull-left col-lg-3 item">
+                        <div class="pull-left col-lg-2 item text-left">
                             <p>Back-end</p>
-                            <ul>
-                                <ol>PHP</ol>
-                                <ol>C# - ASP.Net</ol>
-                                <ol>Ruby on Rails</ol>
-                            </ul>
+                                <li>PHP</li>
+                                <li>Ruby on Rails</li>
+                                <li>Amazon AWS</li>
+                                <li>LAMP Stack</li>
+                                <li>C# ASP.Net</li>
+                                <li>Git</li>    
+                        </div>
+                    </div>
+                   <!--  <div class="icons">                    
+                        <img src="content/images/*.png" alt="" class="img-responsive"/>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        </div>
-                        <div class="pull-left col-lg-3 item">
-                            <p>Interface Design</p>
-                            <ul>
-                                <ol>Wireframes</ol>
-                                <ol>Adobe Creative Suite</ol>
-                                <ol>Foundation</ol>
-                                <ol>Typography</ol>
-                            </ul>
-                        </div>
+
+    <!--Portfolio-->
+    <section id='discovered' data-top-bottom="background-position: 49.9% 300px" data-bottom="background-position: 49.9% 0px" data-bottom-top="background-position: 49.9% -300px">
+        <!--slider-wrapper -->
+        <div id="slider" class="sl-slider-wrapper">
+            <div class="sl-slider">
+                <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                    <div class="sl-slide-inner">
+                        <div class="deco" data-icon="h"></div>
+                        <h2>Content 1</h2>
+                        <blockquote>
+                            <p>Quote 1</p>
+                            <cite>xxxxxxxxxxxxxxxxxxx</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                    <div class="sl-slide-inner">
+                        <div class="deco" data-icon="q"></div>
+                        <h2>Content 2</h2>
+                        <blockquote>
+                            <p>Quote 2</p>
+                            <cite>xxxxxxxxxxxxxxxxxxx</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                    <div class="sl-slide-inner">
+                        <div class="deco" data-icon="o"></div>
+                        <h2>Content 3</h2>
+                        <blockquote>
+                            <p>Quote 3</p>
+                            <cite>xxxxxxxxxxxxxxxxxxx</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+                    <div class="sl-slide-inner">
+                        <div class="deco" data-icon="i"></div>
+                        <h2>Content 4</h2>
+                        <blockquote>
+                            <p>Quote 4</p>
+                            <cite>xxxxxxxxxxxxxxxxxxx</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+                    <div class="sl-slide-inner">
+                        <div class="deco" data-icon="t"></div>
+                        <h2>Content 5</h2>
+                        <blockquote>
+                            <p>Quote 5</p>
+                            <cite>xxxxxxxxxxxxxxxxxxx</cite>
+                        </blockquote>
                     </div>
                 </div>
             </div>
+            <!-- /sl-slider -->
+            <nav id="nav-arrows" class="nav-arrows">
+                <span class="nav-arrow-prev">Previous</span>
+                <span class="nav-arrow-next">Next</span>
+            </nav>
 
-            <footer>
-                <div class="container">
-                    <p>Designed with Passion</p>
-                </div>
-            </footer>
+            <nav id="nav-dots" class="nav-dots">
+                <span class="nav-dot-current"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </nav>
         </div>
-   
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/common/js/main.js" language="javascript"></script>
+        <!--/slider-wrapper -->
+    </section>
+
+    
+    <!--Gallery 1-->
+    <section id='gallery'>
+        <div class='container'>
+            <div class='row'>
+                <div class='content col-lg-10 col-lg-offset-1 text-center'>
+                    <h1 id='heart'>BUILDING</h1>
+                </div>
+            </div>
+        </div>
+        <ul id='gallery-list' class='list-unstyled'>
+            <!-- top row -->
+            <li class='w2 h2 t0 l0 item' style="background-image: url('common/images/imageGrid/1.png');"></li>
+            <li class='w1 h1 t0 l2 item' style="background-image: url('common/images/imageGrid/2.jpg');"></li>
+            <li class='w1 h1 t0 l3 item' style="background-image: url('common/images/imageGrid/3.jpg');"></li>
+            <li class='w1 h1 t1 l2 item' style="background-image: url('common/images/imageGrid/4.jpg');"></li>
+            <li class='w1 h1 t1 l3 item' style="background-image: url('common/images/imageGrid/5.jpg');"></li>
+            <li class='w1 h2 t0 l4 item' style="background-image: url('common/images/imageGrid/6.gif');"></li>
+            <li class='w1 h1 t0 l5 item' style="background-image: url('common/images/imageGrid/7.jpg');"></li>
+            <li class='w1 h1 t1 l5 item' style="background-image: url('common/images/imageGrid/8.jpg');"></li>
+            <li class='w2 h2 t0 l6 item' style="background-image: url('common/images/imageGrid/9.png');"></li>
+            <!-- middle row -->
+
+            <li class='w1 h1 t2 l0 item' style="background-image: url('common/images/imageGrid/10.jpg');"></li>
+            <li class='w1 h1 t3 l0 item' style="background-image: url('common/images/imageGrid/11.jpg');"></li>
+            <li class='w3 h2 t2 l1 item' style="background-image: url('common/images/imageGrid/12.png');"></li>
+            <li class='w2 h2 t2 l4 item' style="background-image: url('common/images/imageGrid/13.gif');"></li>
+            <li class='w1 h1 t2 l6 item' style="background-image: url('common/images/imageGrid/14.jpg');"></li>
+            <li class='w1 h1 t3 l6 item' style="background-image: url('common/images/imageGrid/15.jpg');"></li>
+            <li class='w1 h2 t2 l7 item' style="background-image: url('common/images/imageGrid/16.jpg');"></li>
+
+            <!-- Bottom Row
+            <li class='w2 h2 t4 l0 item' style="background-image: url('img/gallery/9.jpg');"></li>
+            <li class='w1 h1 t4 l2 item' style="background-image: url('img/gallery/8.jpg');"></li>
+            <li class='w1 h1 t5 l2 item' style="background-image: url('img/gallery/7.jpg');"></li>
+            <li class='w1 h2 t4 l3 item' style="background-image: url('img/gallery/6.jpg');"></li>
+            <li class='w1 h1 t4 l4 item' style="background-image: url('img/gallery/5.jpg');"></li>
+            <li class='w1 h1 t5 l4 item' style="background-image: url('img/gallery/4.jpg');"></li>
+            <li class='w1 h1 t4 l5 item' style="background-image: url('img/gallery/3.jpg');"></li>
+            <li class='w1 h1 t5 l5 item' style="background-image: url('img/gallery/2.jpg');"></li>
+            <li class='w2 h2 t4 l6 item' style="background-image: url('img/gallery/gallery_1.jpg');"></li> -->
+        </ul>
+    </section>
+    
+
+    <!--Contact Me-->
+    <section id='request-invite'>
+        <div class='container'>
+            <div class='row request-home'>
+                <div class='content col-lg-12 text-center'>
+                    <h1>Does your project need UI/UX TLC?</h1>
+                </div>
+            </div>
+            <div class='row'>
+                <div id='artist-form' class='col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center bucket'>
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="http://agst.us6.list-manage1.com/subscribe/post-json?u=d54948a0002e1f83fbf5dcc89&amp;id=4d7dee156c&c=?" method="GET" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="mc-field-group">
+                                <label for="mce-TYPE">Who are you?</label>
+                                <div class="select-wrapper">
+                                    <select name="TYPE" class="required" id="mce-TYPE">
+                                        <option value="Consumer">Consumer</option>
+                                        <option value="Enterprise">Enterprise</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address</label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-KIND">Project Description</label>
+                                <input type="text" value="" name="KIND" class="" id="mce-KIND" data-placeholder-artist="What kind of artist are you?" data-placeholder-consumer="What kind of product &amp; project?" placeholder="What kind of product &amp; project">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-WEBSITE">Your Website</label>
+                                <input type="text" value="" name="WEBSITE" class="" id="mce-WEBSITE" placeholder="A link to your website">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div class="clear">
+                                <input type="submit" value="Request Invitation" name="subscribe" id="mc-embedded-subscribe" class="button submit">
+                            </div>
+                        </form>
+                    </div>
+                <!--End mc_embed_signup-->
+            </div>
+        </div>
+        <div class='row'>
+            <div id='request-success' class='col-lg-12 text-center' style='display:none;'>
+                <p>
+                    Thank you for your reaching out. You will receive an email fromme shortly.
+                </p>
+            </div>
+            <div id='request-failure' class='col-lg-12 text-center' style='display:none;'>
+                Failed to submit, please check the information you've entered and try again.
+            </div>
+        </div>
+        </div>
+    </section>
 
 
-<!-- End Document
-================================================== -->
+    <footer id='footer'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-lg-12 text-center'>
+                    &copy;2013 Anthony Cole | <a href='mailto:Anthony.cole0001@gmail.com'></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/common/js/main/bootstrap.min.js"></script>
+<script src="/common/js/main/skrollr.min.js"></script>
+<script src="/common/js/main/main.js"></script>
+
+
+<!-- Slider -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/slider/jquery.ba-cond.min.js"></script>
+<script type="text/javascript" src="/common/js/slider/jquery.slitslider.js"></script>
+<script type="text/javascript"> 
+    $(function() {
+    
+        var Page = (function() {
+
+            var $navArrows = $( '#nav-arrows' ),
+                $nav = $( '#nav-dots > span' ),
+                slitslider = $( '#slider' ).slitslider( {
+                    onBeforeChange : function( slide, pos ) {
+
+                        $nav.removeClass( 'nav-dot-current' );
+                        $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+                    }
+                } ),
+
+                init = function() {
+
+                    initEvents();
+                    
+                },
+                initEvents = function() {
+
+                    // add navigation events
+                    $navArrows.children( ':last' ).on( 'click', function() {
+
+                        slitslider.next();
+                        return false;
+
+                    } );
+
+                    $navArrows.children( ':first' ).on( 'click', function() {
+                        
+                        slitslider.previous();
+                        return false;
+
+                    } );
+
+                    $nav.each( function( i ) {
+                    
+                        $( this ).on( 'click', function( event ) {
+                            
+                            var $dot = $( this );
+                            
+                            if( !slitslider.isActive() ) {
+
+                                $nav.removeClass( 'nav-dot-current' );
+                                $dot.addClass( 'nav-dot-current' );
+                            
+                            }
+                            
+                            slitslider.jump( i + 1 );
+                            return false;
+                        
+                        } );
+                        
+                    } );
+
+                };
+
+                return { init : init };
+
+        })();
+
+        Page.init();
+
+        /**
+         * Notes: 
+         * 
+         * example how to add items:
+         */
+
+        /*
+        
+        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+        
+        // call the plugin's add method
+        ss.add($items);
+
+        */
+    
+    });
+</script>
+
+<!-- ImageGrid -->
+<!--<script type="text/javascript" src="/common/js/imageGrid/jquery.gridrotator.js"></script>
+<script type="text/javascript"> 
+        $(function() {
+        
+            $( '#ri-grid' ).gridrotator( {
+                rows : 4,
+                columns : 8,
+                maxStep : 2,
+                interval : 2000,
+                w1024 : {
+                    rows : 5,
+                    columns : 6
+                },
+                w768 : {
+                    rows : 5,
+                    columns : 5
+                },
+                w480 : {
+                    rows : 6,
+                    columns : 4
+                },
+                w320 : {
+                    rows : 7,
+                    columns : 4
+                },
+                w240 : {
+                    rows : 7,
+                    columns : 3
+                },
+            } );
+        
+        });
+</script>
+-->
+
 </body>
 </html>
+
+

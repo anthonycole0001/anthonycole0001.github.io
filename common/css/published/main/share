@@ -1,0 +1,26 @@
+a[class*="-share"] {
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	text-indent: -90000px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+a.facebook-share {
+	background: url(../img/share-icons.png) no-repeat left top;
+}
+
+a.facebook-share:hover {
+	background: url(../img/share-icons.png) no-repeat left bottom;
+}
+
+a.twitter-share {
+	background: url(../img/share-icons.png) no-repeat right top;
+}
+
+a.twitter-share:hover {
+	background: url(../img/share-icons.png) no-repeat right bottom;
+}
